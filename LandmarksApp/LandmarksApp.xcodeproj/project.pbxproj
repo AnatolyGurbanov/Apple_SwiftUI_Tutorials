@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		53057FC226E01AA50016E68A /* LandmarksAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53057FC126E01AA50016E68A /* LandmarksAppApp.swift */; };
+		53057FC226E01AA50016E68A /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53057FC126E01AA50016E68A /* LandmarksApp.swift */; };
 		53057FC426E01AA50016E68A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53057FC326E01AA50016E68A /* ContentView.swift */; };
 		53057FC626E01AA70016E68A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53057FC526E01AA70016E68A /* Assets.xcassets */; };
 		53057FC926E01AA70016E68A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53057FC826E01AA70016E68A /* Preview Assets.xcassets */; };
@@ -15,7 +15,7 @@
 
 /* Begin PBXFileReference section */
 		53057FBE26E01AA50016E68A /* LandmarksApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LandmarksApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		53057FC126E01AA50016E68A /* LandmarksAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksAppApp.swift; sourceTree = "<group>"; };
+		53057FC126E01AA50016E68A /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		53057FC326E01AA50016E68A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		53057FC526E01AA70016E68A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53057FC826E01AA70016E68A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		53057FC026E01AA50016E68A /* LandmarksApp */ = {
 			isa = PBXGroup;
 			children = (
-				53057FC126E01AA50016E68A /* LandmarksAppApp.swift */,
+				53057FC126E01AA50016E68A /* LandmarksApp.swift */,
 				53057FC326E01AA50016E68A /* ContentView.swift */,
 				53057FC526E01AA70016E68A /* Assets.xcassets */,
 				53057FCA26E01AA70016E68A /* Info.plist */,
@@ -139,7 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53057FC426E01AA50016E68A /* ContentView.swift in Sources */,
-				53057FC226E01AA50016E68A /* LandmarksAppApp.swift in Sources */,
+				53057FC226E01AA50016E68A /* LandmarksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
