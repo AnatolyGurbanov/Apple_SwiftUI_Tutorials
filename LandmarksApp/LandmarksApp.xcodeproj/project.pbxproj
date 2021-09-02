@@ -17,6 +17,7 @@
 		534642EB26E17BBF00B40A2B /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534642EA26E17BBF00B40A2B /* Landmark.swift */; };
 		534642ED26E17C8600B40A2B /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534642EC26E17C8600B40A2B /* Coordinates.swift */; };
 		534642F026E17D0000B40A2B /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534642EF26E17D0000B40A2B /* ModelData.swift */; };
+		534642F226E1812000B40A2B /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534642F126E1812000B40A2B /* LandmarkRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		534642EA26E17BBF00B40A2B /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		534642EC26E17C8600B40A2B /* Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
 		534642EF26E17D0000B40A2B /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		534642F126E1812000B40A2B /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				53057FC326E01AA50016E68A /* ContentView.swift */,
 				53057FD026E020950016E68A /* CircleImageView.swift */,
 				53057FD226E021920016E68A /* MapView.swift */,
+				534642F126E1812000B40A2B /* LandmarkRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				534642ED26E17C8600B40A2B /* Coordinates.swift in Sources */,
 				53057FC226E01AA50016E68A /* LandmarksApp.swift in Sources */,
 				534642EB26E17BBF00B40A2B /* Landmark.swift in Sources */,
+				534642F226E1812000B40A2B /* LandmarkRow.swift in Sources */,
 				534642F026E17D0000B40A2B /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
