@@ -13,7 +13,6 @@ struct LandmarkDetail: View {
     var body: some View {
         ScrollView {
             MapView(coordinate: landmark.locationCoordinate)
-                .ignoresSafeArea(edges: .top)
                 .frame(height: 300)
 
             CircleImageView(image: landmark.image)
@@ -42,6 +41,7 @@ struct LandmarkDetail: View {
             }
             .padding()
         }
+        .ignoresSafeArea(edges: .top)
         .navigationTitle(landmark.name)
         .navigationBarTitleDisplayMode(.inline)
     }
